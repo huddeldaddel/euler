@@ -1,35 +1,23 @@
 package engineer.thomas_werner.euler;
 
+import engineer.thomas_werner.euler.math.FibonacciSequence;
+
 /**
  * Solution for https://projecteuler.net/problem=2
  */
 public class Problem2 {
 
-    int num1 = 1;
-    int num2 = 1;
+    public static void main(String[] args) {
+        final FibonacciSequence fibonacciSequence = new FibonacciSequence();
 
-    private int calculateNextFibonacci() {
-        final int result = num1 + num2;
-        num1 = num2;
-        num2 = result;
-        return result;
-    }
-
-    private long sumEvenFibonacciValues(int upperLimit) {
+        long f;
         long result = 0;
-
-        int f = calculateNextFibonacci();
-        while(f < upperLimit) {
+        while((f = fibonacciSequence.nextValue()) < 4_000_000) {
             if(0 == f % 2)
                 result += f;
-            f = calculateNextFibonacci();
         }
 
-        return result;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Problem2().sumEvenFibonacciValues(4_000_000));
+        System.out.println(result);
     }
 
 }
