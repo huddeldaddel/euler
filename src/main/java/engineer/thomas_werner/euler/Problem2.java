@@ -12,7 +12,7 @@ public class Problem2 {
 
         long f;
         long result = 0;
-        while((f = fibonacciSequence.nextValue()) < 4_000_000) {
+        while((f = fibonacciSequence.nextValue().longValue()) < 4_000_000) {
             if(0 == f % 2)
                 result += f;
         }

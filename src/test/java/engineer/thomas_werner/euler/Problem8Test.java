@@ -24,7 +24,7 @@ public class Problem8Test {
     }
 
     @Test
-    public void testFindGreatestProductOfAdjecentDigits() {
-        Assertions.assertEquals(5832, problem8.findGreatestProductOfAdjecentDigits(4));
+    public void testFindGreatestProductOfAdjacentDigits() {
+        Assertions.assertEquals(5832, problem8.findGreatestProductOfAdjacentDigits(4));
     }
 }

@@ -3,10 +3,10 @@ package engineer.thomas_werner.euler;
 public class Problem8 {
 
     public static void main(String[] args) {
-        System.out.println(new Problem8().findGreatestProductOfAdjecentDigits(13));
+        System.out.println(new Problem8().findGreatestProductOfAdjacentDigits(13));
     }
 
-    long findGreatestProductOfAdjecentDigits(final int count) {
+    long findGreatestProductOfAdjacentDigits(final int count) {
         long result = 0;
 
         final int[] input = prepareInput();

@@ -15,11 +15,11 @@ public class FibonacciSequenceTest {
 
     @Test
     public void testCheckFirst5Values() {
-        Assertions.assertEquals(1, fibonacciSequence.nextValue());
-        Assertions.assertEquals(1, fibonacciSequence.nextValue());
-        Assertions.assertEquals(2, fibonacciSequence.nextValue());
-        Assertions.assertEquals(3, fibonacciSequence.nextValue());
-        Assertions.assertEquals(5, fibonacciSequence.nextValue());
+        Assertions.assertEquals(1, fibonacciSequence.nextValue().intValue());
+        Assertions.assertEquals(1, fibonacciSequence.nextValue().intValue());
+        Assertions.assertEquals(2, fibonacciSequence.nextValue().intValue());
+        Assertions.assertEquals(3, fibonacciSequence.nextValue().intValue());
+        Assertions.assertEquals(5, fibonacciSequence.nextValue().intValue());
     }
 
 }

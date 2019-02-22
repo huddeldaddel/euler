@@ -1,26 +1,22 @@
 package engineer.thomas_werner.euler.math;
 
+import java.math.BigInteger;
+
 public class FibonacciSequence {
 
-    private long num1 = 0;
-    private long num2 = 0;
+    private BigInteger num1 = BigInteger.ZERO;
+    private BigInteger num2 = BigInteger.ZERO;
 
-    public long nextValue() {
-        if(0 == num1) {
-            num1 = 1;
-            return num1;
-        }
+    public BigInteger nextValue() {
+        if(BigInteger.ZERO.equals(num1))
+            return num1 = BigInteger.ONE;
 
-        if(0 == num2) {
-            num2 = 1;
-            return num2;
-        }
+        if(BigInteger.ZERO.equals(num2))
+            return num2 = BigInteger.ONE;
 
-        final long result = num1 + num2;
+        final BigInteger result = num1.add(num2);
         num1 = num2;
-        num2 = result;
-
-        return result;
+        return num2 = result;
     }
 
 }
