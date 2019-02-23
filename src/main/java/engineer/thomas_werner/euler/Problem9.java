@@ -7,14 +7,11 @@ public class Problem9 {
     }
 
     long findPythagoreanTriplet() {
-        for(int c=1; c<1_000; c++) {
-            for(int b=1; b<c; b++) {
-                for(int a=1; a<b; a++) {
+        for(int c=1; c<1_000; c++)
+            for(int b=1; b<c; b++)
+                for(int a=1; a<b; a++)
                     if(isPythagoreanTriplet(a,b,c) && isTargetTriplet(a,b,c))
                         return getResult(a,b,c);
-                }
-            }
-        }
         return 0;
     }
 
