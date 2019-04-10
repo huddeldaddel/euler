@@ -8,7 +8,7 @@ public class Problem7 {
         System.out.println(new Problem7().getPrimeNumber(10_001));
     }
 
-    long getPrimeNumber(final int num) {
+    public long getPrimeNumber(final int num) {
         final PrimeSequence primeSequence = new PrimeSequence();
         for(int i=1; i<num; i++)
             primeSequence.nextValue();

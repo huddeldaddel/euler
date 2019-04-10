@@ -107,7 +107,7 @@ public class Problem11 {
             }
         }
 
-        int get(int row, int column) {
+        public int get(int row, int column) {
             return values[row][column];
         }
 
