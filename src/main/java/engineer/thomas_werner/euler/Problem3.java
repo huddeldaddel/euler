@@ -2,7 +2,6 @@ package engineer.thomas_werner.euler;
 
 import engineer.thomas_werner.euler.math.Factorizer;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 

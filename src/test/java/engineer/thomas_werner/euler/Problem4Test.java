@@ -1,7 +1,6 @@
 package engineer.thomas_werner.euler;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class Problem4Test {

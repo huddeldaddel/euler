@@ -14,9 +14,8 @@ public class Problem25 {
 
     int findFibonacciIndex(final Predicate<BigInteger> predicate) {
         int index = 1;
-        BigInteger value;
         final FibonacciSequence sequence = new FibonacciSequence();
-        while(!predicate.test(value = sequence.nextValue()))
+        while(!predicate.test(sequence.nextValue()))
             index++;
         return index;
     }
