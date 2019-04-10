@@ -19,7 +19,7 @@ public class Problem13 {
         System.out.println(result);
     }
 
-    List<BigInteger> prepareInput() {
+    public List<BigInteger> prepareInput() {
         final String text =
                 "37107287533902102798797998220837590246510135740250\n" +
                 "46376937677490009712648124896970078050417018260538\n" +

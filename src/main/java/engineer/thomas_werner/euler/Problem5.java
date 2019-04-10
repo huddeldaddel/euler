@@ -6,7 +6,7 @@ public class Problem5 {
         System.out.println(new Problem5().getSmallestMultiple(20));
     }
 
-    long getSmallestMultiple(final int d) {
+    public long getSmallestMultiple(final int d) {
         long result = 0;
         boolean failed = true;
 

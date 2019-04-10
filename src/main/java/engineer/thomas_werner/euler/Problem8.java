@@ -6,7 +6,7 @@ public class Problem8 {
         System.out.println(new Problem8().findGreatestProductOfAdjacentDigits(13));
     }
 
-    long findGreatestProductOfAdjacentDigits(final int count) {
+    public long findGreatestProductOfAdjacentDigits(final int count) {
         long result = 0;
 
         final int[] input = prepareInput();
@@ -20,7 +20,7 @@ public class Problem8 {
         return result;
     }
 
-    int[] prepareInput() {
+    public int[] prepareInput() {
         final String textInput =
                 "73167176531330624919225119674426574742355349194934" +
                 "96983520312774506326239578318016984801869478851843" +

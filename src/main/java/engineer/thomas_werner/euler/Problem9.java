@@ -6,7 +6,7 @@ public class Problem9 {
         System.out.println(new Problem9().findPythagoreanTriplet());
     }
 
-    long findPythagoreanTriplet() {
+    private long findPythagoreanTriplet() {
         for(int c=1; c<1_000; c++)
             for(int b=1; b<c; b++)
                 for(int a=1; a<b; a++)
@@ -15,15 +15,15 @@ public class Problem9 {
         return 0;
     }
 
-    boolean isPythagoreanTriplet(final int a, final int b, final int c) {
+    private boolean isPythagoreanTriplet(final int a, final int b, final int c) {
         return (a < b) && (b < c) && (a * a + b * b == c * c);
     }
 
-    boolean isTargetTriplet(final int a, final int b, final int c) {
+    private boolean isTargetTriplet(final int a, final int b, final int c) {
         return 1_000 == a + b + c;
     }
 
-    long getResult(final int a, final int b, final int c) {
+    private long getResult(final int a, final int b, final int c) {
         System.out.println("a: " + a +", b: " + b +", c: " +c);
         return a * b * c;
     }

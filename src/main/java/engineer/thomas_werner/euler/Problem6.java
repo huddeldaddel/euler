@@ -8,14 +8,14 @@ public class Problem6 {
         System.out.println(result);
     }
 
-    long getSumOfSquares(final int limit) {
+    public long getSumOfSquares(final int limit) {
         long result = 0;
         for(int i=1; i<= limit; i++)
             result += i*i;
         return result;
     }
 
-    long getSquareOfSums(final int limit) {
+    public long getSquareOfSums(final int limit) {
         long sum = 0;
         for(int i=1; i<= limit; i++)
             sum += i;

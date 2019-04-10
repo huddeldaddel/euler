@@ -20,7 +20,7 @@ public class Problem11 {
         System.out.println(values[3]);
     }
 
-    long getMaxAdjacentNumberProductVertical(final Grid grid) {
+    private long getMaxAdjacentNumberProductVertical(final Grid grid) {
         long result = 0;
         for(int column=0; column<20; column++) {
             for(int row=0; row<20 -SEQUENCE_SIZE; row++) {
@@ -33,7 +33,7 @@ public class Problem11 {
         return result;
     }
 
-    long getMaxAdjacentNumberProductHorizontal(final Grid grid) {
+    private long getMaxAdjacentNumberProductHorizontal(final Grid grid) {
         long result = 0;
         for(int row=0; row<20; row++) {
             for(int column=0; column<20 -SEQUENCE_SIZE; column++) {
@@ -46,7 +46,7 @@ public class Problem11 {
         return result;
     }
 
-    long getMaxAdjacentNumberProductDiagonal1(final Grid grid) {
+    private long getMaxAdjacentNumberProductDiagonal1(final Grid grid) {
         long result = 0;
         for(int row=0; row<20 -SEQUENCE_SIZE; row++) {
             for(int column=0; column<20 -SEQUENCE_SIZE; column++) {
@@ -59,7 +59,7 @@ public class Problem11 {
         return result;
     }
 
-    long getMaxAdjacentNumberProductDiagonal2(final Grid grid) {
+    private long getMaxAdjacentNumberProductDiagonal2(final Grid grid) {
         long result = 0;
         for(int row=SEQUENCE_SIZE; row<20; row++) {
             for(int column=0; column<20 -SEQUENCE_SIZE; column++) {
@@ -76,7 +76,7 @@ public class Problem11 {
 
         private final int[][] values = new int[20][20];
 
-        public Grid() {
+        Grid() {
             final String text =
                     "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08\n" +
                     "49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00\n" +
@@ -107,7 +107,7 @@ public class Problem11 {
             }
         }
 
-        public int get(int row, int column) {
+        int get(int row, int column) {
             return values[row][column];
         }
 

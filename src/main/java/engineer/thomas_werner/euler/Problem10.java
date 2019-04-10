@@ -8,7 +8,7 @@ public class Problem10 {
         System.out.println(new Problem10().getResult());
     }
 
-    long getResult() {
+    public long getResult() {
         long result = 0;
         long prime;
         final PrimeSequence primeSequence = new PrimeSequence();
