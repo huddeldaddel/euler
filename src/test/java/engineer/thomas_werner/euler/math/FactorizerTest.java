@@ -1,7 +1,6 @@
 package engineer.thomas_werner.euler.math;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -10,12 +9,7 @@ import java.util.List;
 
 public class FactorizerTest {
 
-    private Factorizer factorizer;
-
-    @BeforeEach
-    public void setUp() {
-        factorizer = new Factorizer();
-    }
+    private final Factorizer factorizer = new Factorizer();
 
     @Test
     public void test13195() {

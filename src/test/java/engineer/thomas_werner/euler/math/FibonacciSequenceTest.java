@@ -1,17 +1,11 @@
 package engineer.thomas_werner.euler.math;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class FibonacciSequenceTest {
 
-    private FibonacciSequence fibonacciSequence;
-
-    @BeforeEach
-    public void setUp() {
-        fibonacciSequence = new FibonacciSequence();
-    }
+    private final FibonacciSequence fibonacciSequence = new FibonacciSequence();
 
     @Test
     public void testCheckFirst5Values() {

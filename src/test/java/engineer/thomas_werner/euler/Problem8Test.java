@@ -1,17 +1,11 @@
 package engineer.thomas_werner.euler;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class Problem8Test {
 
-    private Problem8 problem8;
-
-    @BeforeEach
-    public void setUp() {
-        problem8 = new Problem8();
-    }
+    private final Problem8 problem8 = new Problem8();
 
     @Test
     public void testPrepareInput() {
