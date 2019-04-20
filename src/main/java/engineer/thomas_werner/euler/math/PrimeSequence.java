@@ -10,6 +10,9 @@ public class PrimeSequence {
     }
 
     public static boolean isPrime(final long number) {
+        if(number < 2)
+            return false;
+
         if (0 == number % 2)
             return number == 2;
 
