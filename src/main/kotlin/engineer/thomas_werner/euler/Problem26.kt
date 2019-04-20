@@ -16,6 +16,7 @@ class Problem26 {
         var maxCycleLength = 0
         var denominator = 0
         for(d in 1 until 1000) {
+            println(d)
             val nthUnitFraction = getNthUnitFraction(d)
             val recurringCycle = getRecurringCycle(nthUnitFraction)
             if((null != recurringCycle) && (recurringCycle.length > maxCycleLength)) {
@@ -29,8 +30,25 @@ class Problem26 {
     companion object {
 
         fun getRecurringCycle(input: String): String? {
-            // TODO
+            if(input.length < 10_002)
+                return null
+
+            for(i in 3..5000) {
+                for(j in i downTo 2) {
+                    val substring = input.substring(j..i)
+                    if(isRecurringCycle(input, substring, i))
+                        return substring
+                }
+            }
+
             return null
+        }
+
+        private fun isRecurringCycle(input: String, part: String, start: Int): Boolean {
+            val builder = StringBuilder(input.substring(0..start))
+            while(builder.length < 10_002)
+                builder.append(part)
+            return input.substring(0 until 10_000) == builder.toString().substring(0 until 10_000)
         }
 
         fun getNthUnitFraction(n: Int): String {
