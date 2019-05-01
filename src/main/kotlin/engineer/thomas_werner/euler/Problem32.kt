@@ -19,12 +19,14 @@ fun List<Long>.isPandigital(digits: Int): Boolean {
     var string = ""
     this.map { it.toString() }.forEach {string += it }
 
-    if(digits != string.length)
+    if(digits != string.length) {
         return false;
+    }
 
     for(i in 1..digits)
-        if(!string.contains(i.toString()[0]))
+        if(!string.contains(i.toString()[0])) {
             return false
+        }
 
     return true
 }
