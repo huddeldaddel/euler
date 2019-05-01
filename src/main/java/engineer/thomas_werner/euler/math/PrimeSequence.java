@@ -2,7 +2,15 @@ package engineer.thomas_werner.euler.math;
 
 public class PrimeSequence {
 
-    private long lastNum = 1;
+    private long lastNum;
+
+    public PrimeSequence() {
+        lastNum = 1;
+    }
+
+    public PrimeSequence(long initialValue) {
+        lastNum = initialValue;
+    }
 
     public long nextValue() {
         while(!isPrime(++lastNum));
