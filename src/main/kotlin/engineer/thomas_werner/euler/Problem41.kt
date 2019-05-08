@@ -12,12 +12,14 @@ fun main() {
 
 fun Long.isPandigital(): Boolean {
     val string = this.toString()
-    if(9 < string.length)
+    if(9 < string.length) {
         return false;
+    }
 
-    for(i in 1..(string.length))
-        if(!string.contains(i.toString()[0]))
+    for(i in 1..(string.length)) {
+        if (!string.contains(i.toString()[0])) {
             return false
-
+        }
+    }
     return true
 }
