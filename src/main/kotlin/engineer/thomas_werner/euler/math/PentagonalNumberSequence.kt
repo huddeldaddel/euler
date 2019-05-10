@@ -8,16 +8,3 @@ class PentagonalNumberSequence(private var index: Int = 0) {
     }
 
 }
-
-fun Long.isPentagonalNumber(): Boolean {
-    val sequence = PentagonalNumberSequence()
-    var comp = sequence.getNext()
-    while(this >= comp) {
-        if(this == comp) {
-            return true
-        } else {
-            comp = sequence.getNext()
-        }
-    }
-    return false
-}
