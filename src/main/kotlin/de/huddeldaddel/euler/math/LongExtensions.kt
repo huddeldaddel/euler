@@ -35,6 +35,11 @@ fun Long.isPandigital(): Boolean {
     return true
 }
 
+fun Long.isPermutationOf(other: Long) : Boolean {
+    val thisString = this.toString()
+    return thisString.all { c -> thisString.count { it == c } == other.toString().count { it == c } }
+}
+
 fun Long.isPrime(): Boolean {
     return PrimeSequence.isPrime(this)
 }
