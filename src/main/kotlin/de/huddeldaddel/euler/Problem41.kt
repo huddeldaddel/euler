@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+import de.huddeldaddel.euler.math.isPandigital
+import de.huddeldaddel.euler.math.isPrime
+
 fun main() {
     for(i in 9_999_999 downTo 1 step 2) {
         val l = i.toLong()
@@ -8,18 +11,4 @@ fun main() {
             return
         }
     }
-}
-
-fun Long.isPandigital(): Boolean {
-    val string = this.toString()
-    if(9 < string.length) {
-        return false;
-    }
-
-    for(i in 1..(string.length)) {
-        if (!string.contains(i.toString()[0])) {
-            return false
-        }
-    }
-    return true
 }
