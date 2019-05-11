@@ -2,7 +2,6 @@ package de.huddeldaddel.euler
 
 import de.huddeldaddel.euler.math.PrimeSequence
 import de.huddeldaddel.euler.math.isPermutationOf
-import kotlin.system.exitProcess
 
 fun main() {
     val primes = get4DigitPrimes()
