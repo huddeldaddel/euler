@@ -13,15 +13,10 @@ public class FactorizerTest {
 
     @Test
     public void test13195() {
-        List<Long> factors = new ArrayList<>();
+        final List<Long> factors = new ArrayList<>();
         factorizer.getPrimeFactors(13195, factors);
         Collections.sort(factors);
-
-        Assertions.assertEquals(4, factors.size());
-        Assertions.assertEquals(5, factors.get(0));
-        Assertions.assertEquals(7, factors.get(1));
-        Assertions.assertEquals(13, factors.get(2));
-        Assertions.assertEquals(29, factors.get(3));
+        Assertions.assertArrayEquals(new Long[]{5L, 7L, 13L, 29L}, factors.toArray());
     }
 
 }

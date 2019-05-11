@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 fun Long.getPrimeFactors(): Collection<Long> {
     val result = mutableSetOf<Long>()
     Factorizer().getPrimeFactors(this, result)
-    return result
+    return result.filter { l -> l.isPrime() }
 }
 
 fun Long.isGoldbachNumber(): Boolean {
