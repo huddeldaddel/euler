@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-fun main(args: Array<String>) {
+fun main() {
     var problem18 = Problem18("""75
 95 64
 17 47 82
@@ -34,7 +34,7 @@ class Problem18 {
             for(colIdx in 0 until triangle[rowIdx].size -1) {
                 val oldValue = triangle[rowIdx -1][colIdx]
                 val maxVal = listOf(triangle[rowIdx][colIdx], triangle[rowIdx][colIdx +1]).max()
-                triangle[rowIdx -1][colIdx] = oldValue + maxVal!!
+                triangle[rowIdx -1][colIdx] = oldValue + (maxVal ?: -1)
             }
         }
         return triangle[0][0]
