@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.isPalindrome
 import java.math.BigInteger
 
+/**
+ * Solution for https://projecteuler.net/problem=55
+ */
 fun main() {
     val result = (1..10_000).map { l -> l.toBigInteger().isLychrelNumber() }.filter { b -> b } .count()
     println(result)

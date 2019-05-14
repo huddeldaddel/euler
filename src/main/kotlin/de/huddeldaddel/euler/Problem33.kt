@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=33
+ */
 fun main() {
     for(denominator in 11..99)
         for(numerator in 10 until denominator)

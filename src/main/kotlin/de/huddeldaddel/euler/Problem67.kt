@@ -1,6 +1,9 @@
 package de.huddeldaddel.euler
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=67
+ */
+fun main() {
     var problem18 = Problem18("""59
 73 41
 52 40 09

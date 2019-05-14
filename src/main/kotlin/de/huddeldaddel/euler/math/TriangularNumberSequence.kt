@@ -1,20 +1,19 @@
 package de.huddeldaddel.euler.math
 
-import java.math.BigInteger
 import java.util.function.Supplier
 
-class TriangularNumberSequence : Supplier<BigInteger> {
+class TriangularNumberSequence : Supplier<Long> {
 
     private var index = 0
-    private var last = BigInteger.ZERO
+    private var last = 0L
 
-    fun nextValue(): BigInteger {
+    fun nextValue(): Long {
         index++
-        last = last.add(BigInteger.valueOf(index.toLong()))
+        last += index
         return last
     }
 
-    override fun get(): BigInteger {
+    override fun get(): Long {
         return nextValue()
     }
 

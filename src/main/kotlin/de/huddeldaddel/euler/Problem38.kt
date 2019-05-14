@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=38
+ */
 fun main() {
     val problem38 = Problem38()
     println(problem38.findBiggestPandigital())

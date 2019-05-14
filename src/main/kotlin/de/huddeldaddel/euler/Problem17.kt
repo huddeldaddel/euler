@@ -2,7 +2,10 @@ package de.huddeldaddel.euler
 
 import java.lang.IllegalArgumentException
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=17
+ */
+fun main() {
     val problem17 = Problem17()
     println(problem17.getResult(1..1000))
 }

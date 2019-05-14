@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=30
+ */
 fun main() {
     val digitPowers = Array(10) { l -> Math.pow(l.toDouble(), 5.0).toInt() }
     var result = 0

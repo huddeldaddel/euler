@@ -1,6 +1,9 @@
 package de.huddeldaddel.euler
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=28
+ */
+fun main() {
     val size = 1001
     val problem28 = Problem28(size)
     problem28.initializeSpiral()

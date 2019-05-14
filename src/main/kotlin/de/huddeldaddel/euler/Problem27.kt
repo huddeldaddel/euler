@@ -1,8 +1,9 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.PrimeSequence
-
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=27
+ */
+fun main() {
     println(Problem27().getResult())
 }
 

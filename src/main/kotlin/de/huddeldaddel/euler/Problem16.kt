@@ -2,7 +2,10 @@ package de.huddeldaddel.euler
 
 import java.math.BigInteger
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=16
+ */
+fun main() {
     val problem16 = Problem16()
     println(problem16.getPowerSum(1000))
 }

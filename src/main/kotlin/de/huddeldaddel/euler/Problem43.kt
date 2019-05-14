@@ -2,6 +2,9 @@ package de.huddeldaddel.euler
 
 import de.huddeldaddel.euler.math.Permutator
 
+/**
+ * Solution for https://projecteuler.net/problem=43
+ */
 fun main() {
     val result = Permutator()
             .getPermutations("0123456789")

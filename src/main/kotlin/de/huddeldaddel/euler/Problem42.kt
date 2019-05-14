@@ -2,6 +2,9 @@ package de.huddeldaddel.euler
 
 import de.huddeldaddel.euler.math.isTriangleNumber
 
+/**
+ * Solution for https://projecteuler.net/problem=42
+ */
 fun main() {
     val result = listOf("A", "ABILITY", "ABLE", "ABOUT", "ABOVE", "ABSENCE", "ABSOLUTELY", "ACADEMIC", "ACCEPT",
             "ACCESS", "ACCIDENT", "ACCOMPANY", "ACCORDING", "ACCOUNT", "ACHIEVE", "ACHIEVEMENT", "ACID", "ACQUIRE",

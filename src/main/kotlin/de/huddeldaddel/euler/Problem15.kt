@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=15
+ */
 fun main() {
     val problem15 = Problem15(20)
     println(problem15.countRoutes())

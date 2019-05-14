@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=18
+ */
 fun main() {
     var problem18 = Problem18("""75
 95 64

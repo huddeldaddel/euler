@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=29
+ */
 fun main() {
     println(Problem29().getResult(100))
 }

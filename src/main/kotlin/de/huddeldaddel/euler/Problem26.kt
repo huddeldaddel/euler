@@ -6,6 +6,9 @@ import java.math.BigInteger
 import java.math.MathContext
 import java.math.RoundingMode
 
+/**
+ * Solution for https://projecteuler.net/problem=26
+ */
 fun main() {
     println(Problem26().getDemoninatorWithMaxCycle())
 }

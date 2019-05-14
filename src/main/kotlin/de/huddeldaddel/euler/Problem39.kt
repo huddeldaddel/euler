@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=39
+ */
 fun main() {
     var maxCombinations = 0
     var result = 0

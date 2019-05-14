@@ -3,7 +3,10 @@ package de.huddeldaddel.euler
 import java.util.*
 import java.util.Calendar
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=19
+ */
+fun main() {
     val problem19 = Problem19()
     println(problem19.countSundays())
 }

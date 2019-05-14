@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=56
+ */
 fun main() {
     var result = 0L
     for(num in 1..99) {

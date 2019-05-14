@@ -2,6 +2,9 @@ package de.huddeldaddel.euler
 
 import java.math.BigInteger
 
+/**
+ * Solution for https://projecteuler.net/problem=48
+ */
 fun main() {
     var result = BigInteger.ZERO
     for(i in 1..1000) {

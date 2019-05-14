@@ -5,6 +5,9 @@ import de.huddeldaddel.euler.math.PentagonalNumberSequence
 import de.huddeldaddel.euler.math.TriangleNumberSequence
 import kotlin.system.exitProcess
 
+/**
+ * Solution for https://projecteuler.net/problem=45
+ */
 fun main() {
     val triangles = TriangleNumberSequence(285)
     val pentagons = PentagonalNumberSequence(165)

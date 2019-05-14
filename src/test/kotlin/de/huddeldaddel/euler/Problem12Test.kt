@@ -9,13 +9,13 @@ class Problem12Test {
 
     @Test
     fun testGetDivisorCount() {
-        Assertions.assertEquals(1, Problem12.getDivisorCount(BigInteger.ONE))
-        Assertions.assertEquals(2, Problem12.getDivisorCount(BigInteger.valueOf(3)))
-        Assertions.assertEquals(4, Problem12.getDivisorCount(BigInteger.valueOf(6)))
-        Assertions.assertEquals(4, Problem12.getDivisorCount(BigInteger.valueOf(10)))
-        Assertions.assertEquals(4, Problem12.getDivisorCount(BigInteger.valueOf(15)))
-        Assertions.assertEquals(4, Problem12.getDivisorCount(BigInteger.valueOf(21)))
-        Assertions.assertEquals(6, Problem12.getDivisorCount(BigInteger.valueOf(28)))
+        Assertions.assertEquals(1, Problem12.getDivisorCount(1))
+        Assertions.assertEquals(2, Problem12.getDivisorCount(3))
+        Assertions.assertEquals(4, Problem12.getDivisorCount(6))
+        Assertions.assertEquals(4, Problem12.getDivisorCount(10))
+        Assertions.assertEquals(4, Problem12.getDivisorCount(15))
+        Assertions.assertEquals(4, Problem12.getDivisorCount(21))
+        Assertions.assertEquals(6, Problem12.getDivisorCount(28))
     }
 
 }

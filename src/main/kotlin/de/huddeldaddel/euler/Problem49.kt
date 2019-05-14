@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.PrimeSequence
 import de.huddeldaddel.euler.math.isPermutationOf
 
+/**
+ * Solution for https://projecteuler.net/problem=49
+ */
 fun main() {
     val primes = get4DigitPrimes()
     for(i in 0 until primes.size -1) {

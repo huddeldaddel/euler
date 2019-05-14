@@ -1,27 +1,30 @@
-package de.huddeldaddel.euler;
+package de.huddeldaddel.euler
 
-public class Problem8 {
+/**
+ * Solution for https://projecteuler.net/problem=8
+ */
+fun main() {
+    println(Problem8().findGreatestProductOfAdjacentDigits(13))
+}
 
-    public static void main(String[] args) {
-        System.out.println(new Problem8().findGreatestProductOfAdjacentDigits(13));
-    }
+class Problem8 {
 
-    public long findGreatestProductOfAdjacentDigits(final int count) {
-        long result = 0;
+    fun findGreatestProductOfAdjacentDigits(count: Int): Long {
+        var result: Long = 0
 
-        final int[] input = prepareInput();
-        for(int i=0; i<input.length -count; i++) {
-            long product = 1;
-            for(int j=0; j<count; j++)
-                product *= input[i + j];
-            result = Math.max(result, product);
+        val input = prepareInput()
+        for (i in 0 until input.size - count) {
+            var product: Long = 1
+            for (j in 0 until count)
+                product *= input[i + j].toLong()
+            result = Math.max(result, product)
         }
 
-        return result;
+        return result
     }
 
-    public int[] prepareInput() {
-        final String textInput =
+    fun prepareInput(): IntArray {
+        val textInput =
                 "73167176531330624919225119674426574742355349194934" +
                 "96983520312774506326239578318016984801869478851843" +
                 "85861560789112949495459501737958331952853208805511" +
@@ -41,13 +44,13 @@ public class Problem8 {
                 "07198403850962455444362981230987879927244284909188" +
                 "84580156166097919133875499200524063689912560717606" +
                 "05886116467109405077541002256983155200055935729725" +
-                "71636269561882670428252483600823257530420752963450";
+                "71636269561882670428252483600823257530420752963450"
 
-        final int[] result = new int[textInput.length()];
-        for(int i=0; i<textInput.length(); i++)
-            result[i] = Integer.parseInt(textInput.substring(i, i + 1));
+        val result = IntArray(textInput.length)
+        for (i in 0 until textInput.length)
+            result[i] = Integer.parseInt(textInput.substring(i, i + 1))
 
-        return result;
+        return result
     }
 
 }

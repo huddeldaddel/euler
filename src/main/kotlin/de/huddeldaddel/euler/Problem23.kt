@@ -1,9 +1,11 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.Factorizer
 import java.util.*
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=23
+ */
+fun main() {
     val problem23 = Problem23()
     println(problem23.getNonAbundantSums())
 }

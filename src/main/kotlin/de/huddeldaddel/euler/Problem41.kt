@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.isPandigital
 import de.huddeldaddel.euler.math.isPrime
 
+/**
+ * Solution for https://projecteuler.net/problem=41
+ */
 fun main() {
     for(i in 9_999_999 downTo 1 step 2) {
         val l = i.toLong()

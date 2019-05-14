@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.getPrimeFactors
 import de.huddeldaddel.euler.math.isPrime
 
+/**
+ * Solution for https://projecteuler.net/problem=47
+ */
 fun main() {
     val problem47 = Problem47(4)
     println(problem47.findSequence())

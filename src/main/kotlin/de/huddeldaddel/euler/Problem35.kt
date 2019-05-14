@@ -1,7 +1,8 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.PrimeSequence
-
+/**
+ * Solution for https://projecteuler.net/problem=35
+ */
 fun main() {
     var result = 0
     val primes = de.huddeldaddel.euler.math.PrimeSequence()

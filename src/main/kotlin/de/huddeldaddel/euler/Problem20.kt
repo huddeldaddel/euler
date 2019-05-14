@@ -2,7 +2,10 @@ package de.huddeldaddel.euler
 
 import de.huddeldaddel.euler.math.FactorialFactory
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=20
+ */
+fun main() {
     var problem20 = Problem20()
     println(problem20.getFactorialDigitSum(100))
 }

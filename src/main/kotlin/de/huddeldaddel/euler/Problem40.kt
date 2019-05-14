@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=40
+ */
 fun main() {
     var number = constructIrrationalNumber(1_000_000)
     var result = 1

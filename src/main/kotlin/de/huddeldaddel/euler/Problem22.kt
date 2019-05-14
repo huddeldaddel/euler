@@ -1,6 +1,9 @@
 package de.huddeldaddel.euler
 
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=22
+ */
+fun main() {
     val problem22 = Problem22()
     println(problem22.getNameScores())
 }

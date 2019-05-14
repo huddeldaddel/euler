@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.PrimeSequence
 import de.huddeldaddel.euler.math.isPrime
 
+/**
+ * Solution for https://projecteuler.net/problem=50
+ */
 fun main() {
     val upperLimit = 1_000_000L
     val primes = getPrimes(upperLimit)

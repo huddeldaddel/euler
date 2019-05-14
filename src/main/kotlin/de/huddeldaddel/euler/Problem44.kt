@@ -4,6 +4,9 @@ import de.huddeldaddel.euler.math.PentagonalNumberSequence
 import kotlin.math.absoluteValue
 import kotlin.system.exitProcess
 
+/**
+ * Solution for https://projecteuler.net/problem=44
+ */
 fun main() {
     val sequence = PentagonalNumberSequence()
     val pentagonals = (1..10_000).map{ sequence.getNext() }

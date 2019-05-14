@@ -3,6 +3,9 @@ package de.huddeldaddel.euler
 import de.huddeldaddel.euler.math.isPermutationOf
 import kotlin.system.exitProcess
 
+/**
+ * Solution for https://projecteuler.net/problem=52
+ */
 fun main() {
     var base = 1L
     var num = base

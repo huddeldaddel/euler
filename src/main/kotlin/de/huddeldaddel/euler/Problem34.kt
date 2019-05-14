@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=34
+ */
 fun main() {
     val factorials = getFactorials()
     var sum = 0L

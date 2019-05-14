@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=31
+ */
 fun main() {
     var result = 1
     for(onePound in 0..2)

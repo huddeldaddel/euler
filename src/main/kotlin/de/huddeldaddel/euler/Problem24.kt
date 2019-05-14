@@ -2,7 +2,10 @@ package de.huddeldaddel.euler
 
 import de.huddeldaddel.euler.math.Permutator
 
-fun main(){
+/**
+ * Solution for https://projecteuler.net/problem=24
+ */
+fun main() {
     println(Problem24().getMillionthPermutation())
 }
 

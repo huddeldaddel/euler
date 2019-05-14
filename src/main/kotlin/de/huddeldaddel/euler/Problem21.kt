@@ -1,8 +1,9 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.Factorizer
-
-fun main(args: Array<String>) {
+/**
+ * Solution for https://projecteuler.net/problem=21
+ */
+fun main() {
     var problem21 = Problem21()
     problem21.calculate()
     println(problem21.getAmicableNumberSum())
