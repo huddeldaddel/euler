@@ -44,6 +44,19 @@ fun Long.isPrime(): Boolean {
     return PrimeSequence.isPrime(this)
 }
 
+fun Long.isTriangleNumber(): Boolean {
+    val sequence = TriangleNumberSequence()
+    var comp = sequence.getNext()
+    while(this >= comp) {
+        if(this == comp) {
+            return true
+        } else {
+            comp = sequence.getNext()
+        }
+    }
+    return false
+}
+
 fun Long.isTruncatable(): Boolean {
     val string = this.toString()
     for(i in 1 until string.length) {

@@ -13,7 +13,7 @@ public class Problem14 {
         int startNumber = 0;
         long maxSequenceLength = 0;
         for(int i=1; i<1_000_000; i++) {
-            final long sequenceLength = CollatzSequence.getLength(i);
+            final long sequenceLength = CollatzSequence.Companion.getLength(i);
             if(sequenceLength > maxSequenceLength) {
                 maxSequenceLength = sequenceLength;
                 startNumber = i;
