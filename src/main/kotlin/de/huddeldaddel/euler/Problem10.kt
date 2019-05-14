@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.PrimeSequence
+import de.huddeldaddel.euler.sequences.PrimeSequence
 
 /**
  * Solution for https://projecteuler.net/problem=10

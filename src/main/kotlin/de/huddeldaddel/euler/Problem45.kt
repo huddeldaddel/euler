@@ -1,8 +1,8 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.HexagonalNumberSequence
-import de.huddeldaddel.euler.math.PentagonalNumberSequence
-import de.huddeldaddel.euler.math.TriangleNumberSequence
+import de.huddeldaddel.euler.sequences.HexagonalNumberSequence
+import de.huddeldaddel.euler.sequences.PentagonalNumberSequence
+import de.huddeldaddel.euler.sequences.TriangleNumberSequence
 import kotlin.system.exitProcess
 
 /**

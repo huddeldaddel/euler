@@ -1,5 +1,7 @@
-package de.huddeldaddel.euler.math
+package de.huddeldaddel.euler.sequences
 
+import de.huddeldaddel.euler.extensions.isTriangleNumber
+import de.huddeldaddel.euler.sequences.TriangleNumberSequence
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 

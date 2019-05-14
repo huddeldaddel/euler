@@ -1,5 +1,6 @@
-package de.huddeldaddel.euler.math
+package de.huddeldaddel.euler.extensions
 
+import de.huddeldaddel.euler.extensions.isPalindrome
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 

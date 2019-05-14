@@ -1,7 +1,7 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.getPrimeFactors
-import de.huddeldaddel.euler.math.isPrime
+import de.huddeldaddel.euler.extensions.getPrimeFactors
+import de.huddeldaddel.euler.extensions.isPrime
 
 /**
  * Solution for https://projecteuler.net/problem=47

@@ -1,4 +1,4 @@
-package de.huddeldaddel.euler.math
+package de.huddeldaddel.euler.sequences
 
 class PentagonalNumberSequence(var index: Int = 0) {
 

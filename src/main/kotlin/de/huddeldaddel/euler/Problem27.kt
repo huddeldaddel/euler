@@ -1,5 +1,7 @@
 package de.huddeldaddel.euler
 
+import de.huddeldaddel.euler.sequences.PrimeSequence
+
 /**
  * Solution for https://projecteuler.net/problem=27
  */
@@ -37,7 +39,7 @@ class Problem27 {
         }
 
         fun isPrime(n: Long, a: Int, b: Int): Boolean {
-            return de.huddeldaddel.euler.math.PrimeSequence.isPrime(n*n + a*n +b)
+            return PrimeSequence.isPrime(n*n + a*n +b)
         }
 
     }

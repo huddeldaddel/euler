@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.CollatzSequence
+import de.huddeldaddel.euler.sequences.CollatzSequence
 
 /**
  * Solution for https://projecteuler.net/problem=14

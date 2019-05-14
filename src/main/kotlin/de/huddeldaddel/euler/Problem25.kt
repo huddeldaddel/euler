@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.FibonacciSequence
+import de.huddeldaddel.euler.sequences.FibonacciSequence
 
 import java.math.BigInteger
 import java.util.function.Predicate

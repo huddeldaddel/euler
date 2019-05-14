@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.isTriangleNumber
+import de.huddeldaddel.euler.extensions.isTriangleNumber
 
 /**
  * Solution for https://projecteuler.net/problem=42

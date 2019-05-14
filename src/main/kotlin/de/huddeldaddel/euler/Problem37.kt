@@ -1,6 +1,7 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.isTruncatable
+import de.huddeldaddel.euler.extensions.isTruncatable
+import de.huddeldaddel.euler.sequences.PrimeSequence
 
 /**
  * Solution for https://projecteuler.net/problem=37
@@ -8,7 +9,7 @@ import de.huddeldaddel.euler.math.isTruncatable
 fun main() {
     var count = 0
     var sum = 0L
-    var primeSequence = de.huddeldaddel.euler.math.PrimeSequence(10)
+    var primeSequence = PrimeSequence(10)
     while(count < 11) {
         val prime = primeSequence.nextValue()
         if(prime.isTruncatable()) {

@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.isPermutationOf
+import de.huddeldaddel.euler.extensions.isPermutationOf
 import kotlin.system.exitProcess
 
 /**

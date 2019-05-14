@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.isPalindrome
+import de.huddeldaddel.euler.extensions.isPalindrome
 import java.math.BigInteger
 
 /**

@@ -1,5 +1,6 @@
-package de.huddeldaddel.euler.math
+package de.huddeldaddel.euler.sequences
 
+import de.huddeldaddel.euler.sequences.CollatzSequence
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

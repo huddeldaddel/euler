@@ -1,9 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.TriangularNumberSequence
-
-import java.math.BigInteger
-import java.util.stream.Stream
+import de.huddeldaddel.euler.sequences.TriangularNumberSequence
 
 /**
  * Solution for https://projecteuler.net/problem=12

@@ -1,7 +1,7 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.PrimeSequence
-import de.huddeldaddel.euler.math.isPrime
+import de.huddeldaddel.euler.sequences.PrimeSequence
+import de.huddeldaddel.euler.extensions.isPrime
 
 /**
  * Solution for https://projecteuler.net/problem=50

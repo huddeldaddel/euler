@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.math.PentagonalNumberSequence
+import de.huddeldaddel.euler.sequences.PentagonalNumberSequence
 import kotlin.math.absoluteValue
 import kotlin.system.exitProcess
 
