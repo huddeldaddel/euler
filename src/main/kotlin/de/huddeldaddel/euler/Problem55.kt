@@ -1,14 +1,11 @@
 package de.huddeldaddel.euler
 
+import de.huddeldaddel.euler.math.isPalindrome
 import java.math.BigInteger
 
 fun main() {
     val result = (1..10_000).map { l -> l.toBigInteger().isLychrelNumber() }.filter { b -> b } .count()
     println(result)
-}
-
-fun BigInteger.isPalindrome(): Boolean {
-    return this.toString() == this.toString().reversed()
 }
 
 fun BigInteger.isLychrelNumber(): Boolean {
