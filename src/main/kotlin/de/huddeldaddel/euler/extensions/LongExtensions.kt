@@ -2,8 +2,10 @@ package de.huddeldaddel.euler.extensions
 
 import de.huddeldaddel.euler.isInt
 import de.huddeldaddel.euler.math.Factorizer
+import de.huddeldaddel.euler.math.Fraction
 import de.huddeldaddel.euler.sequences.PrimeSequence
 import de.huddeldaddel.euler.sequences.TriangleNumberSequence
+import java.math.BigInteger
 import kotlin.math.sqrt
 
 fun Long.getPrimeFactors(): Collection<Long> {
