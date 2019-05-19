@@ -1,5 +1,10 @@
 package de.huddeldaddel.euler
 
+import kotlin.system.exitProcess
+
+/**
+ * Solution for https://projecteuler.net/problem=59
+ */
 fun main() {
     val problem59 = Problem59()
     for(a in 'a'..'z') {
@@ -7,8 +12,9 @@ fun main() {
             for(c in 'a'..'z') {
                 val result = problem59.decryptWithPassword("$a$b$c")
                 if(problem59.isProbableText(result)) {
-
-                    println("$key: $result")
+                    val asciiSum = result.map { s -> s.toInt() }.sum()
+                    println("$asciiSum : $a$b$c : $result")
+                    exitProcess(0)
                 }
             }
         }
@@ -30,7 +36,7 @@ class Problem59 {
     }
 
     fun isProbableText(input: String): Boolean {
-        return input.matches(regExp)
+        return input.matches(REGEXP)
     }
 
     companion object {
