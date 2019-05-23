@@ -1,5 +1,8 @@
 package de.huddeldaddel.euler
 
+/**
+ * Solution for https://projecteuler.net/problem=79
+ */
 fun main() {
     println(Problem79().digits)
 }
