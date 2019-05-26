@@ -2,13 +2,20 @@ package de.huddeldaddel.euler.math
 
 import java.math.BigInteger
 
-class FactorialFactory {
+class FactorialFactory(private val cache: MutableMap<Int, BigInteger> = mutableMapOf()) {
 
     fun build(fac: Int): BigInteger {
-        return if(1 == fac)
+        if(cache.containsKey(fac)) {
+            return cache[fac] ?: BigInteger.ZERO
+        }
+
+        return if(2 > fac)
             BigInteger.ONE
-        else
-            build(fac -1).multiply(fac.toBigInteger())
+        else {
+            val result = build(fac - 1).multiply(fac.toBigInteger())
+            cache[fac] = result
+            result
+        }
     }
 
 }
