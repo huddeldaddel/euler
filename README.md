@@ -9,7 +9,7 @@ My solutions for problems of [Project Euler](https://projecteuler.net/)
 
 My key for friendship requests: `1459930_QdyGQge45FGsNCpNoEw9f5XUj33eEnx3`
 
-##What is Project Euler?
+## What is Project Euler?
 
 [Project Euler](https://projecteuler.net/) is a series of challenging mathematical/computer programming problems that
 will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and
