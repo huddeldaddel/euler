@@ -1,6 +1,6 @@
 package de.huddeldaddel.euler
 
-import de.huddeldaddel.euler.util.NumberMatrixResourceLoader
+import de.huddeldaddel.euler.util.ResourceLoader
 import kotlin.math.min
 import kotlin.system.measureTimeMillis
 
@@ -8,7 +8,7 @@ import kotlin.system.measureTimeMillis
  * Solution for https://projecteuler.net/problem=81
  */
 fun main() {
-    val problem81 = Problem81(NumberMatrixResourceLoader().loadMatrix("81.txt"))
+    val problem81 = Problem81(ResourceLoader().loadMatrix("81.txt"))
     println("Finished in ${measureTimeMillis { println(problem81.findMinimalPathSum()) }} milliseconds")
 }
 
