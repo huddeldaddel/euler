@@ -27,5 +27,5 @@ fun getFractionClosestTo3Div7(denominator: Long): Fraction {
             return lastFraction.reduce()
         } else lastFraction = fraction
     }
-    throw Exception("Unable to find fraction")
+    throw ArithmeticException("Unable to find fraction")
 }
