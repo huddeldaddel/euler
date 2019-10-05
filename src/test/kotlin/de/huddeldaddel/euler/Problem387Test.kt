@@ -9,6 +9,7 @@ class Problem387Test {
     fun isHarshad() {
         Assertions.assertEquals(true, 20.toBigInteger().isHarshad())
         Assertions.assertEquals(true, 201.toBigInteger().isHarshad())
+        Assertions.assertEquals(false, 202.toBigInteger().isHarshad())
     }
 
     @Test
