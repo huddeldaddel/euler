@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 
 import java.math.BigInteger
 
-class Problem13Test {
+class Problem013Test {
 
     @Test
     fun testPrepareInput() {

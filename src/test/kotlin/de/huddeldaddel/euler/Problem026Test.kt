@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem26Test {
+class Problem026Test {
 
     @Test
     fun testGetNthUnitFraction() {

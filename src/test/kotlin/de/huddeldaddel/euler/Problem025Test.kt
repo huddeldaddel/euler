@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 import java.math.BigInteger
 import java.util.function.Predicate
 
-class Problem25Test {
+class Problem025Test {
 
     @Test
     fun testFindFibonacciIndex7() {

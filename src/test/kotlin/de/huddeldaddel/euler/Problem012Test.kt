@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 
 import java.math.BigInteger
 
-class Problem12Test {
+class Problem012Test {
 
     @Test
     fun testGetDivisorCount() {

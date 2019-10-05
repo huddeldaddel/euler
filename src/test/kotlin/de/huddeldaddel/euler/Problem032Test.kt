@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem32Test {
+class Problem032Test {
 
     @Test
     fun testIsPandigital() {

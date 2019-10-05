@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem6Test {
+class Problem006Test {
 
     @Test
     fun testGetSumOfSquares() {

@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem17Test {
+class Problem017Test {
 
     private val problem17 = Problem17()
 

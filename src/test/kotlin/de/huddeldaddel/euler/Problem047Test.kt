@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem47Test {
+class Problem047Test {
 
     @Test
     fun testFindSequence() {

@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem29Test {
+class Problem029Test {
 
     @Test
     fun testIsPrime() {

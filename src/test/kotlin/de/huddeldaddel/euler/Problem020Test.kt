@@ -3,7 +3,7 @@ package de.huddeldaddel.euler
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem20Test {
+class Problem020Test {
 
     @Test
     fun testGetFactorialDigitSum10() {

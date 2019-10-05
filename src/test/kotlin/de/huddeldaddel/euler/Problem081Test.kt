@@ -4,7 +4,7 @@ import de.huddeldaddel.euler.util.ResourceLoader
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class Problem81Test {
+class Problem081Test {
 
     @Test
     fun testFindMinimalPathSum() {

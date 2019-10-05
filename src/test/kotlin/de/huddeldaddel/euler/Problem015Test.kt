@@ -2,7 +2,7 @@ import de.huddeldaddel.euler.Problem15
 import org.junit.jupiter.api.Assertions
 import kotlin.test.Test
 
-class Problem15Test {
+class Problem015Test {
 
     @Test
     fun testGetSize() {
